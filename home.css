@@ -1,0 +1,420 @@
+/*image slider*/
+hr
+{
+	width: 390px;
+	height: 5px;
+	float: left;
+	background-color: gold;
+	border-style: none;
+}
+
+.carousel-inner .item .imag
+{
+	height: 500px;
+	width: 650px;
+	margin-top: -488px;
+	margin-left: 760px;
+	animation: image 4s ease-in;
+}
+@keyframes image
+{
+	0%
+	{
+		margin-left: 1300px;
+	}
+	50%
+	{
+		margin-left: 700px;
+	}
+	100%
+	{
+		margin-left: 760px;
+	}
+}
+.carousel-inner .item .tag
+{
+	margin-top: -470px;
+	margin-left: 560px;
+	opacity: 0.9;
+	animation-name: flower;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+}
+@keyframes flower
+{
+	0%
+	{
+		opacity: 1;
+	}
+	25%
+	{
+		opacity: 0.1;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	75%
+	{
+		opacity:0.1;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
+.carousel-inner .item .medium
+{
+	margin-top: -185px;
+	margin-left: 345px;
+}
+.carousel-inner .item .iam
+{
+	margin-top: -95px;
+	opacity: 0.9;
+	animation: tag 4s forwards;
+}
+@keyframes tag
+{
+	0%
+	{
+		margin-left: -180px;
+		opacity: 0;
+	}
+	100%
+	{
+		margin-left: 0;
+		opacity: 1;
+	}
+}
+/*about*/
+.main 
+{
+    margin-left: 40px;
+	background-image: url(bioimage/background.jpeg);
+	height: 650px;
+    width: 1270px;
+	margin-top: 70px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "open sans", sans-serif;
+	font-size: 1.2em;
+}
+.about
+{
+	background-color: rgb(0, 0, 0, .5);
+	margin-left: 20px;
+	width: 1251px;
+	height: 650px;
+	padding: 10px;
+}
+.about .a
+{
+	text-align: center;
+	font-weight: bold;
+	color: crimson;
+}
+.about p
+{
+	width: 1250px;
+	margin-left: 20px;
+	margin-top: -35px;
+	padding: 10px;
+	color: cadetblue;
+}
+.section1 
+{
+	display: inline-flex;
+}
+.section1 h2
+{
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: orange;
+}
+.section1 p
+{
+	width: 300px;
+	margin: 3px;
+	margin-top: 50px;
+	margin-left: -55px;
+}
+.section2 
+{
+	display: inline-flex;
+}
+.section2 h2
+{
+	margin-left: 20px;
+	font-weight: bold;
+	color: orange;
+	font-size: 1.5em;
+	margin-top: 30px;
+}
+.section2 p
+{
+	width: 300px;
+	margin: 3px;
+	margin-top: 50px;
+	margin-left: -260px;
+}
+.section1 .heading1 h2
+{
+	margin-left: 100px;
+	margin-top: -44px;
+}
+.section2 .heading1 h2
+{
+	margin-left: 100px;
+	margin-top: -44px;
+}
+.section1 .heading1 p
+{
+	margin-left: 91px;
+	margin-top: -10px;
+}
+.section2 .heading1 p
+{
+	margin-left: 91px;
+	margin-top: -10px;
+}
+.section1 .heading1 i
+{
+	font-size: 40px;
+	margin-left: 50px;
+}
+.section2 .heading1 i
+{
+	font-size: 40px;
+	margin-left: 30px;
+}
+/* icon */
+.section1 i
+{
+	font-size: 40px;
+	margin-top: 20px;
+	margin-left: 30px;
+	color: orangered;
+}
+.section2 i
+{
+	font-size: 40px;
+	margin-left: 20px;
+	margin-top: 37px;
+	color: orangered;
+}
+.section2 .heading1 i
+{
+	margin-left: 50px;
+}
+.section1 .heading1 i
+{
+	margin-left: 40px;
+}
+/* end */
+#horizontal 
+{
+	width: 200px;
+	margin-left: 300px;
+}
+.bioimg img 
+{
+	
+	height: 600px;
+	width: 550px;
+	margin-top: -600px;
+	float: right;
+	margin-left: 1500px;
+	opacity: 0.9;
+}
+/*ledership*/
+.carddeck 
+{
+	display: inline-flex;
+	text-align: center;
+}
+.carddeck .card-body
+{
+	background-color: #5e756e;
+	width: 270px;
+	margin: 15px 10px;
+	height: 410px;
+	padding: 20px;
+	border-radius: 30px;
+	color: #fbeae2;
+	transition: 1s;
+}
+.carddeck .card-body:hover
+{
+	transform: scale(1.1);
+}
+.carddeck .card-body img
+{
+	width: 100px;
+	height: 100px;
+}
+.carddeck .card-body h3
+{
+	font-size: 1.4em;
+	font-weight: bolder;
+}
+.carddeck .card-body h4
+{
+	margin-top: 20px;
+	font-style: italic;
+	text-decoration: underline;
+	word-spacing: 1px;
+}
+.carddeck .card-body p 
+{
+	font-family: "open sans", sans-serif;
+	font-size: 1.2em;
+}
+.carddeck .card-body a
+{
+	color: black;
+	text-decoration: none;
+}
+/*Gallery*/
+#back
+{
+	background-color: #d8dcd6;
+	width:100%;
+	height: 880px;
+	margin-top: 50px;
+}
+#back #ga
+{
+	margin-left:90px;
+}
+.gallery
+{
+	float:left;
+	display: inline-flex;
+	margin: 10px 25px;
+}
+.gallery
+{
+	margin-left: 90px;
+}
+.gallery .galleryimage img
+{
+	transition: 1s;
+	padding: 10px;
+}
+.gallery .galleryimage img:hover
+{
+	filter: grayscale(50%);
+	transform: scale(1.1);
+}
+.gallery .galleryimage1 img
+{
+	transition: 1s;
+	padding: 10px;
+}
+.gallery .galleryimage1 img:hover
+{
+	filter: grayscale(50%);
+	transform: scale(1.1);
+}
+.gallerybutton 
+{
+	float: right;
+	margin-right: 152px;
+	text-decoration: none;
+	font-size: 2em;
+	font-family: sans-serif; 
+	cursor: pointer;
+	margin-top:-90px;
+	
+}
+.gallerybutton a
+{
+	padding: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin: 2px;
+	border-radius: 8px;
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+	transition: 1.5s;
+}
+.gallerybutton a:hover
+{
+	background: gray;
+	color: black;
+	text-decoration: none;
+}
+
+/*Event & initiative*/
+.container h1
+{
+	margin-top: 100px;
+}
+.events
+{
+	display: inline-flex;
+}
+.events .event
+{
+	width: 300px;
+	height: 350px;
+}
+/* contact info*/
+.detail
+{
+	margin-top: 20px;
+	background-color: #d8dcd6;
+	width: 100%;
+	height: 280px;
+}
+.detail .contactinfo
+{
+	display: inline-block;
+	margin: 15px;
+	padding: 15px;
+	margin-top: 30px;
+}
+.detail .contactinfo h4
+{
+	margin: 2px;
+	padding: 2px;
+}
+.detail .contactinfo number
+{
+	margin:2px;
+	padding: 2px;
+}
+.detail i
+{
+	margin-left: 130px;
+	font-size: 70px;
+	color: #5e756e;
+}
+.detail .media
+{
+	margin-top: -20px;
+	text-align: center;
+}
+.detail .media img
+{
+	margin: 20px;
+	padding: -10px;
+}
+/* footer*/
+.footer
+{
+	font-style: oblique;
+	text-align: center;
+	font-weight: bold;
+	margin: 2px;
+}
+.footer p
+{
+	padding: 6px;
+	margin: 5px;
+	font-size: 1.4em;
+}

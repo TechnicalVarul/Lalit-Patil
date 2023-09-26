@@ -1,0 +1,16 @@
+.gallery
+{
+	float:left;
+	display: inline-flex;
+	margin: 10px 25px;
+}
+.gallery .galleryimage img
+{
+	transition: 1s;
+	padding: 15px;
+}
+.gallery .galleryimage img:hover
+{
+	filter: grayscale(40%);
+	transform: scale(1.1);
+}
